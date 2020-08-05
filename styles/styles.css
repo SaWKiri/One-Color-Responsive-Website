@@ -53,6 +53,10 @@ a {
 
 .nav-container {
   background: #070707;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 nav {
